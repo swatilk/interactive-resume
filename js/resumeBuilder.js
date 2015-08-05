@@ -103,9 +103,9 @@ work.display = function(){
 		var formattedLocation = HTMLworkLocation.replace("%data%", work.jobs[job].location);
 		$(".work-entry:last").append(formattedWorkTitle.concat(formattedWorkEmployer + formattedLocation));
 		$(".work-entry:last").append(formattedDates);
-		$(".work-entry:last").append(formattedDescription);		
+		$(".work-entry:last").append(formattedDescription);
 	}
-	$("#skills").prepend(HTMLskillsStart);	
+	$("#skills").prepend(HTMLskillsStart);
 }
 work.display();
 
