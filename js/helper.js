@@ -16,8 +16,9 @@ var HTMLdropLocation = '<li role="presentation"><a href="#map-div">%data%</a></l
 var HTMLcontactGeneric = '<i class="fa fa-book fa-2x"></i><h2>Contact</h2>';
 var HTMLmobile = '<li class="contact-item"><i class="fa fa-mobile"></i><span>%data%</span></li>';
 var HTMLemail = '<li class="contact-item"><i class="fa fa-envelope"></i><span>%data%</span></li>';
-var HTMLtwitter = '<li class="contact-item"><i class="fa fa-twitter"></i><span>%data%</span></li>';
-var HTMLgithub = '<li class="contact-item"><i class="fa fa-github-alt"></i><span>%data%</span></li>';
+/*var HTMLtwitter = '<li class="contact-item"><i class="fa fa-twitter"></i><span>%data%</span></li>';*/
+var HTMLlinkedIn = '<li class="contact-item"><i class="fa fa-linkedin"></i><a target="_blank" href="https://in.linkedin.com/pub/swati-kamtar/78/308/24b"><span>%data%</span></a></li>';
+var HTMLgithub = '<li class="contact-item"><i class="fa fa-github-alt"></i><a target="_blank" href="https://github.com/swatilk"><span>%data%</span></a></li>';
 var HTMLlocation = '<li class="contact-item"><i class="fa fa-map-marker"></i><span>%data%</span></li>';
 
 /*Navigation menu details */
@@ -39,12 +40,16 @@ var HTMLworkEmployer = '<span class="work-employer">%data%';
 var HTMLworkLocation = ' - %data%</span><br />';
 var HTMLworkDates = '<span class="date-text">%data%</span>';
 var HTMLworkDescription = '<p>%data%</p>';
+/*var HTMLworkTechStart = '<ul class="work-tech">Technolgy Used</ul'*/
 
 /*Project details*/
 var HTMLprojectStart = '<br /><div class="project-entry"></div>';
 var HTMLprojectTitle = '<div class="project-title">%data%</div>';
 var HTMLprojectDates = '<div class="date-text project-dates">%data%</div>';
 var HTMLprojectDescription = '<p><br />%data%</p>';
+var HTMLprojectTechStart = '<ul class="project-tech">Technology Used</ul>';
+var HTMLprojectTechnology = '<li class="tech-item">%data%</li>';
+var HTMLprojectSoftware = '<p>Software Used: %data%</p>'
 var HTMLprojectImage = '<img src="%data%" class="project-image img-responsive">';
 
 /*Education details*/
@@ -61,6 +66,10 @@ var HTMLonlineTitle = '<div class="online-name">%data%';
 var HTMLonlineSchool = ' - %data%</div>';
 var HTMLonlineDates = '<div class="date-text online-date">%data%</div>';
 var HTMLonlineURL = '<br><a href="#">%data%</a><br>';
+
+/* interests and hobbies */
+var HTMLinterestStart = '<ul class="interest-list"><ul>';
+var HTMLinterests = '<li class="interest-item">%data%</li>';
 
 /*Google Map header and the map div*/
 var mapHeader = ' <i class="fa fa-map-marker fa-2x"><h2>Where I\'ve lived and worked</h2>';
