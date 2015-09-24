@@ -1,5 +1,5 @@
 # interactive-resume
-This is an interactive resume. Created with HTML5 CSS and Javscript.
+This is an interactive resume. Created with HTML5 CSS and Javascript.
 This project uses Bootstrap for styling. 
 style.css is a custom css. Chart.js is a js file for implementing Bar Chart for this project.
 Helper.js is a helper file which is used to fill the HTML file instead of crowding the HTML file itself. 
